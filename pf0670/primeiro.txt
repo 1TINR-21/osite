@@ -4,4 +4,8 @@ Linha de Teste.
 
 Errei a digitação.
 
+<<<<<<< HEAD
 Branch do prof.Alexandre.
+=======
+Atualizando na Branch pf0670!
+>>>>>>> pf0670
