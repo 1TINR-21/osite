@@ -16,11 +16,34 @@
     </head>
     <!-- O Body é um elemento que está no mesmo nível de head, porém ele abriga apenas conteúdo, diferentemente do head.-->
     <body>
-        <!-- Elemento NAV é semântico. Utilizamos para comportar, links, listas, menus e afins.-->
+        <!-- Elemento NAV é semântico. Utilizamos para comportar, links, listas, menus e afins.
+            - Podemos criar no NAV as seguintes listas
+            - li = List Itens, estes são os itens das listas, e não podem faltar.
+            - ol = Ordered List( Listas ordenadas, ou seja, cria uma lista com itens numerados, que podem ser alterados para letras, algarismos etc.)
+            - ul = Unordered List(Cria uma lista de itens sem ordenação, é o elemento mais utilizado.)
+            - dl = description list que utiliza os dt que são termos dentro da lista e temos o dd que são a descrição dos termos.
+              
+
+        -->
         <nav>
-            
+            <ul type="circle">
+                <li>Java
+                    <ul type="square">
+                        <li>Fx</li>
+                        <li>EJB</li>
+                        <li>Spring
+                            <ul type="disc">
+                                <li>Boot</li>
+                                <li>Cloud</li>
+                                <li>JPA</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>C#</li>
+                <li>Python</li>
+            </ul>
         </nav>
-        <p>Paragrafo</p>
         
     </body>
 </html>
