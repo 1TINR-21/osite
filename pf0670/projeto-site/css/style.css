@@ -57,7 +57,7 @@ nav  a{
 
 nav ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     list-style: none;
     padding: 0;
@@ -153,6 +153,10 @@ header p{
     transform: scale(100%);
 }
 
+#servicos div img{
+    width: 50%;
+}
+
 #servicos h2{
     margin-bottom: 20px;
 }
@@ -169,10 +173,6 @@ header p{
     margin-bottom: 20px;
 }
 
-#fotos img{
-    width: 100%;
-}
-
 /* Contato */
 
 #contato {
@@ -187,3 +187,65 @@ header p{
     color: #000000;
 }
 
+/* Rodapé */
+footer{
+    text-align: center;
+    background-color: #191970;
+    color: #ffffff;
+    padding: 15px;
+}
+
+footer .botao{
+    padding-top: 2px 0;
+    border: 1px solid #ffffff;
+}
+
+/* @Media-Querie */
+@media screen and (min-width:770px){
+
+    /* nav */
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }    
+   
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /* Cabeçalho */
+    header{
+        height: 60vh;
+        justify-content: center;
+    }   
+
+    /* Sobre */
+
+    #sobre{
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /* Serviços */
+    #servicos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #servicos h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    #servicos div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+}
