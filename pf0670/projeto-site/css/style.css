@@ -43,8 +43,34 @@ h1,h2,h3{
 nav{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #191970;
-    justify-content: flex-start;
-
 }
 
+nav  a{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Asap', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
