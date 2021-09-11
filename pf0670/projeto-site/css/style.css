@@ -7,6 +7,18 @@
     font-size: 1.2rem;
 } */
 
+/* nav ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+
+nav ul li{
+    flex-grow: 2;
+}
+ */
+
+
 html{
     font-size: 16px;
 }
@@ -18,3 +30,21 @@ body{
 h1,h2,h3{
     font-family: 'Asap', sans-serif;
 }
+
+.botao{
+    color: #ffffff;
+    text-decoration: none;
+    padding:10px 30px;
+    background-color: #191970;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #191970;
+    justify-content: flex-start;
+
+}
+
