@@ -172,3 +172,18 @@ header p{
 #fotos img{
     width: 100%;
 }
+
+/* Contato */
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato h2{
+    color: #000000;
+}
+
